@@ -12,6 +12,9 @@ app.get("/", (req, res) => {
 import addRouter from "./routers/add";
 app.use("/add", addRouter);
 
+import removeRouter from "./routers/remove";
+app.use("/remove", removeRouter);
+
 app.get("*", (req, res) => {
   res.send(`The ${req.path} route does not exist.`);
 });

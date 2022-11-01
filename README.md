@@ -11,7 +11,7 @@ A simple Express API that fakes the subscriber counts of people.
 
 ### TODO
 
-- [ ] Add ability to remove channels
+- [x] Add ability to remove channels
 - [ ] Add ability to add and edit rates
 - [ ] Auto-update counts every 2 seconds
 - [ ] Convert to monorepo?
